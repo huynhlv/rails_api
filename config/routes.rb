@@ -1,6 +1,6 @@
 require 'api_constraints'
 
-MarketPlaceApi::Application.routes.draw do
+SherpaApi::Application.routes.draw do
   devise_for :users, only: []
   # Api definition
   namespace :api, defaults: { format: :json },
